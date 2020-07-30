@@ -1,0 +1,24 @@
+{
+  "name": "inspirationalquote",
+  "version": "1.0.0",
+  "description": "Just showing some inspirational quotes collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass style.scss style.css -w",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffreyHoDev/inspirationQuote_landing_page.git"
+  },
+  "author": "Jeffrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffreyHoDev/inspirationQuote_landing_page/issues"
+  },
+  "homepage": "https://github.com/JeffreyHoDev/inspirationQuote_landing_page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 10px; }
+
+.header {
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: 'Lexend Zetta', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  animation: fadingIn 1s ease-out; }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-rows: 1fr 1fr; }
+
+.images {
+  margin: 1rem 1rem;
+  display: inline-block;
+  animation: fadingIn 1s ease-in; }
+
+.image {
+  width: 30rem;
+  transition: ease-out .5s; }
+  .image:hover {
+    transform: scale(1.1); }
+
+@keyframes fadingIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
